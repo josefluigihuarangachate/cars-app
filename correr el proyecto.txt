@@ -1,0 +1,7 @@
+- composer dump-autoload
+- composer install
+- php artisan cache:clear
+- php artisan clear-compiled
+
+- Crear la base de datos: cars_db
+- php artisan migrate
